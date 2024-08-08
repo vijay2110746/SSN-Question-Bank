@@ -1,0 +1,106 @@
+/* Team heading */
+.heading {
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+.ima {
+    margin-top: 40px;
+    width: 210px; /* Set your desired width */
+    height: 290px; /* Set your desired height */
+    overflow: hidden;
+    position: relative; /* Ensure positioning context for child */
+}
+
+.ima img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the container, cropping as needed */
+    position: absolute; /* Make sure the image fills the container */
+    top: 0;
+    left: 0;
+}
+
+
+/* Flex container for profile components */
+.profiles {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of profiles to a new row */
+    gap: 40px; /* Space between profiles */
+    justify-content: center; /* Centers the profiles within the container */
+    margin-bottom: 10px;
+}
+
+/* Profiles with additional spacing, if needed */
+.profiles1 {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 120px; /* Space between names */
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: transparent; /* No background color */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+button i {
+    font-size: 40px; 
+}
+
+
+.linkedin-button i {
+    color: #0077b5;
+}
+
+.linkedin-button:hover i {
+    transform: scale(1.2); 
+}
+
+
+.github-button i {
+    color: #333;
+}
+
+.github-button:hover i {
+    transform: scale(1.2);
+}
+
+
+.instagram-button i {
+    color: #e1306c;
+}
+
+.instagram-button:hover i {
+    transform: scale(1.2);
+}
+
+.link{
+    /* margin-left: 40px; */
+    display: flex;
+    gap: 25px;
+}
+
+.page-link {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+    gap: 90px; /* Space between links */
+    margin-left: 27px;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 10px;
+}
