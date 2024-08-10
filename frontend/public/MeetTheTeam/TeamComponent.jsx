@@ -1,12 +1,8 @@
-import HeadingComponent from "./HeadingComponent";
-import RectangleProfile from "./Profile";
-import Name from "./Name";
-import Links from "./links";
 
+import RectangleProfile from "./Profile";
 export default function TeamComponent() {
     return (
         <>
-            <HeadingComponent />
             <div className="profiles">
                 <RectangleProfile name="Vijay Veerasekaran" />
                 <RectangleProfile name="Vishnu Siddharth" />
